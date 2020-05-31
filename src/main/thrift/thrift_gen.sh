@@ -1,6 +1,9 @@
 #!/bin/bash
 # Author:       nghiatc
 # Email:        congnghia0609@gmail.com
+# Thrift:       0.13.0
+# Since:        May 31, 2020
+
 
 PATH_NAMESPACE=com/ntc/thrift/tutorial
 
@@ -22,5 +25,6 @@ echo "3. Move gen-java to main/java/"
 mv gen-java/$PATH_NAMESPACE/* ../java/$PATH_NAMESPACE/
 # Delete gen-java
 rm -rf gen-java
+
 
 echo "Thrift gen-java complete."
