@@ -37,7 +37,8 @@ public class Client {
     
     public static void main(String[] args) {
         try {
-            TSocket socket = new TSocket("localhost", 9090);
+            //TSocket socket = new TSocket("localhost", 9091); // Call direct thrift-java
+            TSocket socket = new TSocket("localhost", 9000); // Call via thrift-haproxy
             TTransport transport = new TFramedTransport(socket);
             TProtocol protocol = new TBinaryProtocol(transport);
             transport.open();

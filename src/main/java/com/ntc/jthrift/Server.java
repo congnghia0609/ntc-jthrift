@@ -43,7 +43,7 @@ public class Server {
                 @Override
                 public void run() {
                     try {
-                        int port = 9090;
+                        int port = 9091;
                         InetAddress inetAddr = InetAddress.getByName("localhost");
                         TNonblockingServerSocket socket = new TNonblockingServerSocket(port);
                         
