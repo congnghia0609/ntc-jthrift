@@ -1,5 +1,5 @@
 # ntc-jthrift
-ntc-jthrift is a example java thrift
+ntc-jthrift is an example java thrift
 
 ## HAProxy Config Load Balancer for Thrift Server
 ```bash
@@ -17,3 +17,5 @@ backend thrift_be
 	server thrift-java 127.0.0.1:9091 check
 ```
 
+## License
+This code is under the [Apache License v2](https://www.apache.org/licenses/LICENSE-2.0).  
